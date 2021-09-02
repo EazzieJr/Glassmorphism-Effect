@@ -16,7 +16,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #ff4f8b,black);
+    background: linear-gradient(to bottom, rgb(3, 25, 53), #ff4f8b);
 
     &::before {
         content: '';
@@ -36,29 +36,6 @@ section .color {
     position: absolute;
     filter: blur(150px);
     -webkit-filter: blur(150px);
-}
-
-section.color:nth-child(1) {
-    top: -350px;
-    background: #ff359b;
-    width: 600px;
-    height: 600px;
-}
-
-section.color:nth-child(2) {
-    bottom: -150px;
-    left: 100px;
-    background: #fffd87;
-    width: 500px;
-    height: 500px;
-}
-
-section.color:nth-child(3) {
-    bottom: -50px;
-    right: 0;
-    background: #00d2ff;
-    width: 500px;
-    height: 500px;
 }
 
 ul {
